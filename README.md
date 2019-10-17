@@ -9,4 +9,4 @@ Before you start please get the following installed in yout browser
 
 ### View Demo
 
-`https://wonexo.github.io/DevFestIlorin-AMPDEMO/amp-devfest/finish`
+[x] https://wonexo.github.io/DevFestIlorin-AMPDEMO/amp-devfest/finish
