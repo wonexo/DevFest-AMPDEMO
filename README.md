@@ -1,4 +1,4 @@
-# DevFestIlorin-AMPDEMO
+# 🎉 DevFestIlorin-AMPDEMO 🎉 
 A amp project folder for Devfest Ilorin <br>
 
 Before you start please get the following installed in yout browser
