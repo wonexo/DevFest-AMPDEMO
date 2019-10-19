@@ -80,38 +80,43 @@
       poster-portrait-src="assets/tensor.jpeg">
       
       <!-- This is a first page -->
-      <amp-story-page id="cover">
+      <amp-story-page id="page3">
+        
         <amp-story-grid-layer template="fill">
-          <amp-img src="assets/devfest.jpeg"
-            width="720"
-            height="1280"
-            layout="responsive"
-            alt="Devfest Filter">
-          </amp-img>
+
+          <amp-video autoplay loop
+          poster= "assets/havefun.jpg"
+          width="720"
+          height="1280"
+          layout="responsive">     
+          <source src="assets/havefun.mp4" type="video/mp4">
+          </amp-video>
+
         </amp-story-grid-layer>
+
         <amp-story-grid-layer template="vertical">
-          <h1>Devfest Ilorin</h1>
-          <p>Get your Devfest Filters Now</p>
+          <h1>Let's Connect</h1>
+          <p>Welcome to devest Ilorin</p>
         </amp-story-grid-layer>
+
       </amp-story-page>
       
       <!-- This is a second page -->
-      <amp-story-page id="page1">
-        <amp-story-grid-layer template="fill">
-            <amp-img src="assets/Aniedi.jpg"
-            width="720"
-            height="1280"
-            layout="responsive"
-            alt="Aniedi Udo">
-          </amp-img>
-        </amp-story-grid-layer>
-        <amp-story-grid-layer template="vertical">
-          <h1>Aniedi Udo</h1>
-          
-          <q>Program Manager, Developer Ecosystems for Subsaharan africa</q>
-        </amp-story-grid-layer>
-      </amp-story-page>
-      
+      <amp-story-page id="cover">
+          <amp-story-grid-layer template="fill">
+            <amp-img src="assets/devfest.jpeg"
+              width="720"
+              height="1280"
+              layout="responsive"
+              alt="Devfest Filter">
+            </amp-img>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="vertical">
+            <h1>Devfest Ilorin</h1>
+            <p>Get your Devfest Filters Now</p>
+          </amp-story-grid-layer>
+        </amp-story-page>
+  
       <!-- This is the third page -->
       <amp-story-page id="page2" 
       background-audio="assets/lagos.mp3"
@@ -132,27 +137,21 @@
       </amp-story-page>
 
       <!-- the last page  -->
-      
-      <amp-story-page id="page3">
-        
-        <amp-story-grid-layer template="fill">
-
-          <amp-video autoplay loop
-          poster= "assets/havefun.jpg"
-          width="720"
-          height="1280"
-          layout="responsive">     
-          <source src="assets/havefun.mp4 type="video/mp4">
-          </amp-video>
-
-        </amp-story-grid-layer>
-
-        <amp-story-grid-layer template="vertical">
-          <h1>A simple Rabbit</h1>
-          <p>It doesn't bite</p>
-        </amp-story-grid-layer>
-
-      </amp-story-page>
+      <amp-story-page id="page1">
+          <amp-story-grid-layer template="fill">
+              <amp-img src="assets/Aniedi.jpg"
+              width="720"
+              height="1280"
+              layout="responsive"
+              alt="Aniedi Udo">
+            </amp-img>
+          </amp-story-grid-layer>
+          <amp-story-grid-layer template="vertical">
+            <h1>Aniedi Udo</h1>
+            
+            <q>Program Manager, Developer Ecosystems for Subsaharan africa</q>
+          </amp-story-grid-layer>
+        </amp-story-page>
 
 
     </amp-story>
